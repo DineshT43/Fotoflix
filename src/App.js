@@ -52,7 +52,7 @@ function App() {
 
   useEffect(() => {
     fetchImages();
-  }, [page]);
+  }, [fetchImages]);
 
   useEffect(() => {
     const event = window.addEventListener('scroll', () => {
